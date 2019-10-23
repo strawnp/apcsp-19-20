@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define SIZE 50
+#define SIZE 47
 
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
         Fibonacci[i] = Fibonacci[i - 2] + Fibonacci[i - 1];
 
     for (i = 0; i < SIZE; ++i)
-        printf("%i\n", Fibonacci[i]);
+        printf("%d\n", Fibonacci[i]);
 
     return 0;
 }

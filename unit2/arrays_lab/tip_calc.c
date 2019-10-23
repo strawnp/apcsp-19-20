@@ -15,6 +15,11 @@ int main(void)
     int items = get_int("How many items did you order? >");
     float* costs = malloc(sizeof(float) * items);
 
+    // examine pointers
+    printf("%p\n", &costs[0]);
+    printf("%p\n", costs);
+    printf("%p\n", &costs);
+
     // get prices from user
     for (int i = 0; i < items; i++)
     {

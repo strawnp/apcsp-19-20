@@ -11,7 +11,11 @@ int main(void)
     // iterate over the string
     for (int i = 0, j = strlen(word); i < j; i++)
     {
-        // do the things
-        // access of a character: word[i]
+        printf("%d", word[i]);
+        if (i < (j - 1))
+        {
+            printf("-");
+        }
     }
+    printf("\n");
 }

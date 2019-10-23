@@ -11,7 +11,14 @@ int main(void)
     // iterate over the string
     for (int i = 0, j = strlen(word); i < j; i++)
     {
-        // do the things
-        // access of a character: word[i]
+        if (i % 2 == 0)
+        {
+            printf("%c", toupper(word[i]));
+        }
+        else
+        {
+            printf("%c", tolower(word[i]));
+        }
     }
+    printf("\n");
 }

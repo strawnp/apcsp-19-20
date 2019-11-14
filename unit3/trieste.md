@@ -4,7 +4,7 @@
 None
 
 ## Problem
-Read through the code below. Without changing the code, run the program with the correct command line arguments, so that it prints the word "Trieste" (a [scenic](https://www.becasinternacionales.net/webapp/img/imgpro/50c754_triestre-italia_w600.jpg) port city on the Adriatic coast).
+Read through the code below. Without changing the code, run the program with the correct command-line arguments, so that it prints the word "Trieste" (a [scenic](https://www.becasinternacionales.net/webapp/img/imgpro/50c754_triestre-italia_w600.jpg) port city on the Adriatic coast and a city where James Joyce wrote part of the greatest work of literature in the English language *Ulysses*).
 
 ## Distribution Code
 
@@ -15,7 +15,7 @@ Read through the code below. Without changing the code, run the program with the
 
 int main(int argc, string argv[])
 {
-	// input verification
+    // input verification
     if (argc < 5)
     {
         printf("You're gonna need more words for this to work!\n");
